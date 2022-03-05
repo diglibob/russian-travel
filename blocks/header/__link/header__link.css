@@ -1,0 +1,10 @@
+.header__link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-left: 18px;
+}
+
+.header__link:focus {
+  text-decoration: underline;
+}
