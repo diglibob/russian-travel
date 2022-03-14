@@ -5,6 +5,7 @@
   margin: auto;
   justify-items: center;
   margin-top: 56px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
