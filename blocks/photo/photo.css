@@ -1,0 +1,5 @@
+.photo {
+  max-width: calc(100% - (48px*2));
+  margin: auto;
+  line-height: 0;
+}
