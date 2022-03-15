@@ -6,3 +6,20 @@
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   gap: 16px;
 }
+
+@media screen and (min-width: 976px) and (max-width: 1273px) {
+  .photo__table {
+    gap:14px
+  }  
+}
+@media screen and (min-width: 633px) and (max-width: 975px) {
+  .photo__table {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  .photo__table {
+    gap: 12px;
+  }
+}
