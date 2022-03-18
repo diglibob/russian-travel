@@ -5,3 +5,9 @@
   color:#FFFFFF;
   
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    min-width: calc(100% - (24px*2));
+  }
+}

@@ -4,3 +4,16 @@
   margin-top: 92px;
   color: #ffffff;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: calc(100% - (48px*2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: calc(100% - (24px*2));
+    margin-top: 89px;
+  }
+}
