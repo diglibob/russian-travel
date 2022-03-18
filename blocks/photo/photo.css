@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 320px) {
   .photo {
-    max-width: 320px;
-    margin-top: 64px;
+    max-width: 288px;
+    margin-top: 66px;
   }
 }
