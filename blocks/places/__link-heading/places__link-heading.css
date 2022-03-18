@@ -1,4 +1,9 @@
 .places__link-heading {
-  grid-column: 2;
-  grid-row: 1;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 2px;
+margin: 0;
+margin-bottom: 12px;
 }

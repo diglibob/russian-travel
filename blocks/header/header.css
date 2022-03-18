@@ -1,17 +1,15 @@
 .header {
-min-width: calc(100% - (48px*2));
-margin: auto;
-min-height: 52px;
+max-width: calc(100% - (48px*2));
 position: relative;
 display: flex;
 justify-content: flex-end;
-align-items: flex-end;
-padding-top: 28px;
+padding-top: 46px;
+margin: 0 48px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    min-width: calc(100% - (24px*2));
+    min-width: 768px;
   }
 }
 
@@ -19,6 +17,6 @@ padding-top: 28px;
   .header {
     min-height: 42px;
     padding-top: 16px;
-    min-width: calc(100% - (16px*2));
+    min-width: 320px;
   }
 }

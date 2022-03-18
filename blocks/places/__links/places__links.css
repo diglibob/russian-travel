@@ -1,0 +1,5 @@
+.places__links {
+  grid-area: url;
+  justify-self: start;
+  align-self: end;
+}

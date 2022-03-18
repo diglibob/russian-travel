@@ -1,0 +1,15 @@
+.logo_place_header {
+  position: absolute;
+  top: 28px;
+  left: 0px;
+  width: 176px;
+  height: 52px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px){
+  .logo_place_header {
+  width: 142px;
+  height: 42px;
+  }
+}

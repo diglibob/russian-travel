@@ -1,5 +1,4 @@
 .places__image {
+  grid-area: img;
   width: 100%;
-  grid-column: 1;
-  grid-row: 2;
 }
