@@ -1,4 +1,6 @@
 .cover__title {
+  text-decoration: none;
+  color: #FFFFFF;
   max-width: 560px;
   position: relative;
   font-style: normal;
