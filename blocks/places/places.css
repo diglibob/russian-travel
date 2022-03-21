@@ -1,24 +1,24 @@
 .places {
-  max-width: calc(100% - (148px*2));
+  max-width: calc(100vw - (148px*2));
   margin: auto;
   margin-top: 92px;
   color: #ffffff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1078px) {
   .places {
-    max-width: calc(100% - (48px*2));
+    max-width: calc(100vw - (48px*2));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .places {
-    max-width: calc(100% - (24px*2));
+    max-width: calc(100vw - (24px*2));
     margin-top: 89px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 752px) {
   .places {
     max-width: 100%;
     margin-top: 64px;

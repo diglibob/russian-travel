@@ -9,7 +9,7 @@
   bottom: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 743px) {
   .footer__copyright {
     position: relative;
     line-height: 14px;

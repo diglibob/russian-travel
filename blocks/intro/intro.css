@@ -15,13 +15,13 @@
   .intro {
     margin: auto;
     margin-top: 88px;
-    max-width: 720px;
+    max-width: calc(100% - (24px*2));
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     margin-top: 64px;
-    max-width: 288px;
+    max-width: calc(100% - (16px*2));
   }
 }
