@@ -6,10 +6,9 @@
   margin-left: 18px;
 }
 
-.header__link:focus {
+.header__link:first-child {
   text-decoration: underline;
 }
-
 
 .header__link:hover {
   cursor: pointer;
