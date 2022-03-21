@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: minmax(460px, 1fr) minmax(484px, 1fr);
   grid-template-areas:
-  "title url"
-  "img text";
+    "title url"
+    "img text";
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -18,8 +18,7 @@
   }
 }
 
-
-@media screen and (max-width: 984px){
+@media screen and (max-width: 984px) {
   .places__item {
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
     column-gap: 28px;
@@ -31,10 +30,10 @@
   .places__item {
     grid-template-columns: 1fr;
     grid-template-areas:
-  "title"
-  "url"
-  "img"
-  "text";
+      "title"
+      "url"
+      "img"
+      "text";
     gap: 32px;
     margin-top: 50px;
   }
