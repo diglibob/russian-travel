@@ -6,19 +6,15 @@
   margin-left: 18px;
 }
 
-.header__link:first-child {
-  text-decoration: underline;
-}
-
 .header__link:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .header__link {
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
-  
+
 }

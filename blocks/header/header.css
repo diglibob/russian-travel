@@ -14,10 +14,10 @@ margin: 0 48px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .header {
     max-width: calc(100% - (16px*2));
-    margin: 0 16px;
+    margin: 0 auto;
     min-height: 22px;
     padding-top: 30px;
     min-width: 288px;

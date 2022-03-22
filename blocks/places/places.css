@@ -5,7 +5,7 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1078px) {
+@media screen and (max-width: 1082px) {
   .places {
     max-width: calc(100vw - (48px*2));
   }

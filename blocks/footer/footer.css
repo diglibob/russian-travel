@@ -1,6 +1,9 @@
 .footer {
   min-width: calc(100% - (48px*2));
   max-height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 92px auto 24px auto;
   color:#FFFFFF;
   
@@ -12,10 +15,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 743px) {
   .footer {
     min-width: calc(100% - (16px*2));
     max-height: 310px;
     margin: 64px auto 16px auto;
+    flex-direction: column;
   }
 }
